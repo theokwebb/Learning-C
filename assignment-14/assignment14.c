@@ -6,7 +6,10 @@ int main(void)
 
     int *ptr = &number;
 
-    printf("ptr's value is %d.\n", *ptr);
+    // ptr's value is number's memory address
+    printf("ptr's value is: %p.\n", ptr);
+
+    printf("number's memory address is: %p.\n", &number);
 
     return 0;
 }
