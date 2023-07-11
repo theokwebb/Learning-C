@@ -10,4 +10,6 @@ int main (void)
     printf("Value of the pointer to the int variable is: %p.\n", ptr);
     printf("Memory address of the int variable is: %p.\n", &variable);
     printf("Value held at the memory location that the pointer is pointing to is: %d.\n", *ptr);
+
+    return 0;
 }
